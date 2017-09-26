@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+    <style name="alza" parent="@style/Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimaryDark">@color/primary_dark_material_light_1</item>
+        <item name="android:colorBackground">@color/primary_dark_material_light_1</item>
+        <item name="attr/actionBarSize">40dp</item>
+    </style>
+
+    <style name="main" parent="android:style/Theme.NoTitleBar.Fullscreen" >
+        <item name="colorPrimaryDark">@color/primary_dark_material_light_1</item>
+        <item name="android:colorBackground">@color/primary_dark_material_light_1</item>
+        <item name="attr/actionBarSize">40dp</item>
+    </style>
+
+    <style name="main_theme" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+    <style name="Theme.AlertDialogCustom.Light.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="app_informaion" parent="@style/AppTheme" >
+        <item name="colorPrimaryDark">@color/statusBarColor</item>
+        <item name="colorPrimary">@color/statusBarColor</item>
+
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#17C694">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hangang ALZA"
+            android:id="@+id/textView3"
+            android:gravity="center|bottom"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="154dp"
+            android:layout_height="169dp"
+            android:id="@+id/imageView9"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/app_launch"
+            android:layout_weight="0.10"
+            android:layout_marginTop="146dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v.2.0.0"
+            android:id="@+id/textView11"
+            android:singleLine="false"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.10"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

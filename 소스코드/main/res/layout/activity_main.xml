@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RelativeLayout
+        android:id="@+id/whatYouWantInLeftDrawer"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" >
+
+        <include layout="@layout/list_header" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#363636"
+            android:id="@+id/navi_item"
+            android:layout_below="@+id/list_header">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="AllView">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/ic_map_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="대교 모아보기"
+                    android:id="@+id/textView4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_height="50dp"
+                android:onClick="History">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/ic_school_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="한강의 역사"
+                    android:id="@+id/textView5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_height="50dp"
+                android:onClick="Hangang">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/ic_public_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="한강사업본부"
+                    android:id="@+id/textView6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_height="50dp"
+                android:onClick="Gusuk">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/ic_public_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="대한민국 구석구석"
+                    android:id="@+id/textView9"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_height="50dp"
+                android:onClick="VisitSeoul">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/ic_public_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Visit Seoul"
+                    android:id="@+id/textView10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_height="50dp"
+                android:onClick="Info">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/ic_info_outline_white_48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="앱 정보"
+                    android:id="@+id/textView8"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Copyright 2015.\n NuRi Labs all rights reserved"
+            android:id="@+id/textView7"
+            android:gravity="center|bottom"
+            android:textColor="#cecece"
+            android:textSize="13sp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

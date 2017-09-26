@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:radius = "10dip"
+    android:background="#17C694"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:background="#FFFFFF"
+        android:text="  구리암사대교  "
+        android:id="@+id/textView12"
+        android:gravity="center_vertical|left"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:textColor="#000000" />
+</LinearLayout>
